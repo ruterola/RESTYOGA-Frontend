@@ -6,7 +6,6 @@
 <br>
 
 <h2>Desenvolvimento</h2>
-<br>
 <pre>Android Studio</pre>
 <br>
 <p>Linguagem</p>
@@ -14,7 +13,6 @@
 <br>
 <p>Bibliotecas Externas</p>
 <pre>Gson -> A Java serialization/deserialization library to convert Java Objects into JSON and back</pre>
-<br>
 <br>
 <h2>Autores</h2>
 <br>
