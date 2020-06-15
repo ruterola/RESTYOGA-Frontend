@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmento_BodyMind.Categorias.Vinyasaflow">
+
+    <ImageView
+        android:id="@+id/imageViewBody"
+        android:layout_width="412dp"
+        android:layout_height="845dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viniasaflow2" />
+
+    <Button
+        android:id="@+id/buttonseta"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/ic_seta"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descricaoBody"
+        android:layout_width="303dp"
+        android:layout_height="177dp"
+        android:text="Vinyasa Flow Yoga exige a integração entre a respiração e o movimento, mas de forma livre pois variam muito de acordo com a criação de cada professor. É uma prática que exige esforço físico, mental e sincronizado por relacionar o movimento fluido e continuo com a respiração."
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:id="@+id/tituloBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinyasa Flow "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

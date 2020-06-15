@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#1BD8C5</color>
+    <color name="verdeEscuro">#243b27</color>
+    <color name="amareloSol">#FF9800</color>
+    <color name="colorFundo">#F0E5E5</color>
+    <color name="colorMenu">#fff</color>
+    <color name="colorPlano">#FA2D2D</color>
+</resources>

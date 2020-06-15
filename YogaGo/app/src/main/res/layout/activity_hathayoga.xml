@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmento_BodyMind.Categorias.Hathayoga">
+
+    <ImageView
+        android:id="@+id/imageViewBody"
+        android:layout_width="412dp"
+        android:layout_height="845dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hathayoga2" />
+
+    <Button
+        android:id="@+id/buttonseta"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:background="@drawable/ic_seta"
+        android:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descricaoBody"
+        android:layout_width="303dp"
+        android:layout_height="177dp"
+        android:text="Hatha Yoga é a yoga clássica, as posturas não exigem uma ordem especifica, nem necessitam de se interligarem entre si. Este tipo de yoga foca-se nas posturas físicas (ásanas) e nos exercícios respiratórios (pranayamas). O grau de dificuldade das posições vai aumentando quanto mais tempo permanecer naquela posição."
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
+
+    <TextView
+        android:id="@+id/tituloBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hatha Yoga"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

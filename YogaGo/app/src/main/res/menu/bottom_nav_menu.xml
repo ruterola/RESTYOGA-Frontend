@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/planos"
+        android:icon="@drawable/bodymind"
+        android:title="Planos" />
+    <item
+        android:id="@+id/cursos"
+        android:icon="@drawable/ic_yoga"
+        android:title="Cursos" />
+    <item
+        android:id="@+id/ler"
+        android:icon="@drawable/ic_pedras"
+        android:title="Ler+" />
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/ic_perfil"
+        android:title="Perfil" />
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:background="@drawable/shadow"
+            android:elevation="16dp">
+
+            <ImageView
+                android:id="@+id/buttonCursos"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/iniciante"
+                android:scaleType="centerCrop"></ImageView>
+
+            <TextView
+                android:id="@+id/titleCursos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/buttonCursos"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="18dp"
+                android:text="Iniciante"
+                android:textColor="#212121"
+                android:textSize="14sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/descricaoCursos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleCursos"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Iniciante • 10 Mins • 21 calorias"
+                android:textColor="#858585"
+                android:textSize="11sp"></TextView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmento_Recomendacoes.Categorias.Queimargordura">
+
+    <Button
+        android:id="@+id/buttonseta"
+        android:layout_width="37dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/ic_seta"
+        android:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonplano"
+        android:layout_width="258dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="33dp"
+        android:background="@drawable/arredondado"
+        android:text="Iniciar plano"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imagesaudacao"
+        android:layout_width="413dp"
+        android:layout_height="639dp"
+        android:layout_marginBottom="328dp"
+        android:src="@drawable/achatadorosa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imagesaudacaocor"
+        android:layout_width="197dp"
+        android:layout_height="177dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046"
+        app:srcCompat="@drawable/imgqueimar"></ImageView>
+
+    <ScrollView
+        android:id="@+id/sv_help"
+        android:layout_width="317dp"
+        android:layout_height="367dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="314dp"
+            android:layout_height="500dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="231dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/imagem"></ImageView>
+
+                <TextView
+                    android:id="@+id/titlequeimar1"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="Nome do Exercicio"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/descqueimar1"
+                    android:layout_width="197dp"
+                    android:layout_height="41dp"
+                    android:layout_alignLeft="@id/titlequeimar1"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#9B9B9B"
+                    android:textSize="12sp"
+                    android:textStyle="normal"></TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/imagem"></ImageView>
+
+                <TextView
+                    android:id="@+id/titlequeimar2"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="Nome do Exercicio"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/descqueimar2"
+                    android:layout_width="197dp"
+                    android:layout_height="41dp"
+                    android:layout_alignLeft="@id/titlequeimar2"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#9B9B9B"
+                    android:textSize="12sp"
+                    android:textStyle="normal"></TextView>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/imagem"></ImageView>
+
+                <TextView
+                    android:id="@+id/titlequeimar3"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="Nome do Exercicio"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/descsaudacao3"
+                    android:layout_width="197dp"
+                    android:layout_height="41dp"
+                    android:layout_alignLeft="@id/titlequeimar3"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#9B9B9B"
+                    android:textSize="12sp"
+                    android:textStyle="normal"></TextView>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/imagem"></ImageView>
+
+                <TextView
+                    android:id="@+id/titlequeimar4"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="Nome do Exercicio"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/descqueimar4"
+                    android:layout_width="197dp"
+                    android:layout_height="41dp"
+                    android:layout_alignLeft="@id/titlequeimar4"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#9B9B9B"
+                    android:textSize="12sp"
+                    android:textStyle="normal"></TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/imagem"></ImageView>
+
+                <TextView
+                    android:id="@+id/titlequeimar5"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="58dp"
+                    android:text="Nome do Exercicio"
+                    android:textColor="#4a4a4a"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/descqueimar5"
+                    android:layout_width="197dp"
+                    android:layout_height="41dp"
+                    android:layout_alignLeft="@id/titlequeimar5"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="106dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginEnd="11dp"
+                    android:layout_marginBottom="9dp"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    android:textColor="#9B9B9B"
+                    android:textSize="12sp"
+                    android:textStyle="normal"></TextView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queimar gordura"
+        android:textColor="#1C1C1C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.233"></TextView>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avançado • 19 calorias"
+        android:textColor="#1C1C1C"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="1.0"></TextView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8 Mins"
+        android:textColor="#1C1C1C"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imagesaudacaocor"
+        app:layout_constraintVertical_bias="0.266"></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
