@@ -14,11 +14,6 @@
 <p>Bibliotecas Externas</p>
 <pre>Gson -> A Java serialization/deserialization library to convert Java Objects into JSON and back</pre>
 <br>
-<h2>Autores</h2>
-<br>
-<p>Luís Fonseca</p>
-<p>Sara Furtado</p>
-<p>Rute Rôla</p>
 <br>
 <h2>Docente</h2>
 <p>Frederico Fonseca</p>
